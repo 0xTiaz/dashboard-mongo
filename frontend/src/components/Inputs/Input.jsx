@@ -9,7 +9,9 @@ const Input = ({ value, onChange, label, placeholder, type }) => {
   };
   return (
     <div>
-      <label htmlFor="">{label}</label>
+      <label className="dark:text-white" htmlFor="">
+        {label}
+      </label>
       <div className="input-box">
         <input
           type={
